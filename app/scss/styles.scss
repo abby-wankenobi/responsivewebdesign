@@ -1,4 +1,10 @@
-.testing {
-  width: percentage(5/7);
-  background-color: red;
+$greenBlue: #34c6d3;
+$steelGray: #41464b;
+$blueBayoux: #64707b;
+$white: #fff;
+$black: #000;
+
+body {
+  background-color: $greenBlue;
+  font-family: 'Roboto', sans-serif;
 }
