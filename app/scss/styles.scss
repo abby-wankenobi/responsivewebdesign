@@ -4,6 +4,8 @@ $blueBayoux: #64707b;
 $white: #fff;
 $black: #000;
 
+$animationDuration: .5s;
+
 
 
 /*============
@@ -91,4 +93,26 @@ Parallax (Generic)
     background-color: $white;
     color: $steelGray;
   }
+}
+
+
+
+/*============
+  Animations
+=============*/
+
+#home-cover, #home-heading, #home-btn {
+  animation-duration: $animationDuration;
+}
+
+#home-cover {
+  animation-delay: .1s;
+}
+
+#home-heading {
+  animation-delay: .5s;
+}
+
+#home-btn {
+  animation-delay: 1s;
 }

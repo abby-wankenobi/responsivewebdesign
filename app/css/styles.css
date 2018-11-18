@@ -60,3 +60,22 @@ Parallax (Generic)
   .btn-white:hover, .btn-white:focus {
     background-color: #fff;
     color: #41464b; }
+
+/*============
+  Animations
+=============*/
+#home-cover, #home-heading, #home-btn {
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s; }
+
+#home-cover {
+  -webkit-animation-delay: .1s;
+          animation-delay: .1s; }
+
+#home-heading {
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s; }
+
+#home-btn {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s; }
