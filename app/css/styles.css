@@ -1,3 +1,21 @@
+/*============
+    General
+=============*/
+html, body {
+  height: 100%; }
+
 body {
-  color: #34c6d3;
   font-family: 'Roboto', sans-serif; }
+
+/*============
+ Home Section
+=============*/
+#home {
+  height: 100%; }
+
+#home-cover {
+  height: 100%;
+  background-image: url("../images/bg-home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }

@@ -4,7 +4,32 @@ $blueBayoux: #64707b;
 $white: #fff;
 $black: #000;
 
+/*============
+    General
+=============*/
+
+html, body {
+  height: 100%;
+}
+
+
 body {
-  color: $greenBlue;
   font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*============
+ Home Section
+=============*/
+#home {
+  height: 100%;
+}
+
+#home-cover {
+  height: 100%;
+  background-image: url("../images/bg-home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
