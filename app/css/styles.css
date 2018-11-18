@@ -15,10 +15,7 @@ body {
 
 #home-cover {
   height: 100%;
-  background-image: url("../images/bg-home.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
+  background-image: url("../images/bg-home.jpg"); }
 
 #home-content-box {
   width: 100%;
@@ -36,6 +33,15 @@ body {
   font-weight: 400;
   margin: 20px 0 20px 0;
   text-transform: uppercase; }
+
+/*============
+Parallax (Generic)
+=============*/
+.bg-parallax {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
 
 /*============
     Buttons
