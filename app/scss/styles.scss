@@ -21,6 +21,17 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+p {
+  color: $blueBayoux;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: $steelGray;
+}
+
 
 
 /*============
@@ -115,4 +126,81 @@ Parallax (Generic)
 
 #home-btn {
   animation-delay: 1s;
+}
+
+
+
+/*============
+    Content
+=============*/
+
+.content-box {
+  padding: 60px 0 60px 0;
+}
+
+.content-title {
+  h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px 0;
+  }
+}
+
+.content-title-underline {
+  width: 30px;
+  height: 3px;
+  background-color: $greenBlue;
+  margin: 0 auto 30px auto;
+}
+
+
+/*============
+    Services
+=============*/
+
+#services {
+  margin: 0 auto 0 auto;
+}
+
+.service-item {
+  padding: 20px 0 20px 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.fa {
+  font-size: 300%;
+}
+
+.service-item-icon {
+  i {
+    color: $greenBlue;
+    float: left;
+    padding: 15px;
+    margin-right: 25px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+
+    &:hover {
+      color: #fff;
+      background-color: $greenBlue;
+    }
+  }
+}
+
+.service-item-title {
+  h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+  }
+}
+
+.service-item-desc {
+  p {
+    margin: 0;
+    padding-left: 100px;
+  }
 }
