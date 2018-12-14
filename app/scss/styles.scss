@@ -1,4 +1,4 @@
-$greenBlue: #34c6d3;
+$greenBlue: #149297;
 $steelGray: #41464b;
 $blueBayoux: #64707b;
 $white: #fff;
@@ -76,6 +76,13 @@ Parallax (Generic)
 .bg-parallax {
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bg-parallax-about {
+  background-repeat: no-repeat;
+  background-size: 80%;
   background-position: center;
   background-attachment: fixed;
 }
@@ -219,6 +226,21 @@ Parallax (Generic)
 /*============
     About
 =============*/
+
+
+#about-bg-diagonal {
+  width: 60%;
+  height: 700px;
+  float: right;
+  // background-color: red;
+  background-image: url("../images/hungrymonkey.JPG");
+  background-repeat: no-repeat;
+  // background-attachment: fixed;
+  background-position: right;
+  // background-size: auto 700px;
+  border-left: 200px solid $white;
+  border-top: 700px solid transparent;;
+}
 
 #about-content-box {
   float: left;

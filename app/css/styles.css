@@ -52,6 +52,12 @@ Parallax (Generic)
   background-position: center;
   background-attachment: fixed; }
 
+.bg-parallax-about {
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  background-attachment: fixed; }
+
 /*============
     Buttons
 =============*/
@@ -71,10 +77,10 @@ Parallax (Generic)
     color: #41464b; }
 
 .btn-blue {
-  border-color: #34c6d3;
-  color: #34c6d3; }
+  border-color: #149297;
+  color: #149297; }
   .btn-blue:hover, .btn-blue:focus {
-    background-color: #34c6d3;
+    background-color: #149297;
     color: #fff; }
 
 /*============
@@ -111,7 +117,7 @@ Parallax (Generic)
 .content-title-underline {
   width: 30px;
   height: 3px;
-  background-color: #34c6d3;
+  background-color: #149297;
   margin: 0 auto 30px auto; }
 
 /*============
@@ -129,7 +135,7 @@ Parallax (Generic)
   font-size: 300%; }
 
 .service-item-icon i {
-  color: #34c6d3;
+  color: #149297;
   float: left;
   padding: 15px;
   margin-right: 25px;
@@ -138,7 +144,7 @@ Parallax (Generic)
   text-align: center; }
   .service-item-icon i:hover {
     color: #fff;
-    background-color: #34c6d3; }
+    background-color: #149297; }
 
 .service-item-title h3 {
   font-size: 20px;
@@ -152,6 +158,16 @@ Parallax (Generic)
 /*============
     About
 =============*/
+#about-bg-diagonal {
+  width: 60%;
+  height: 700px;
+  float: right;
+  background-image: url("../images/hungrymonkey.JPG");
+  background-repeat: no-repeat;
+  background-position: right;
+  border-left: 200px solid #fff;
+  border-top: 700px solid transparent; }
+
 #about-content-box {
   float: left;
   height: 700px; }
