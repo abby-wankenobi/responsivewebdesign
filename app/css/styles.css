@@ -196,3 +196,14 @@ Parallax (Generic)
 .row.no-gutters [class*=col-] {
   padding-left: 0;
   padding-right: 0; }
+
+.img-wrapper {
+  overflow: hidden; }
+  .img-wrapper img {
+    -webkit-transition: -webkit-transform .3s ease;
+    transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+    transition: transform .3s ease, -webkit-transform .3s ease; }
+    .img-wrapper img:hover {
+      -webkit-transform: scale(1.5);
+              transform: scale(1.5); }
